@@ -1,8 +1,7 @@
 
 'use strict'
 
-const APIKey = '379c86dacaecca133cb762b001463591'; // Assign your API key to this variable. 
-// const APIKey = 'API_KEY'; // Assign your API key to this variable. 
+const APIKey = 'API_KEY'; // Assign your API key to this variable. 
 
 /**
  * Fetch data from server
