@@ -11,7 +11,7 @@ export const createWeatherTempElement = (icon, temp, description, dateUnix, time
     element.classList.add("weather-temp")
     element.setAttribute("data-weather-temp", "")
     element.innerHTML = String.raw `
-        <img src="/src/images/${icon}.png">
+        <img src="src/images/${icon}.png">
         <div class="temp">
             <p class="temperature">${parseInt(temp)}&deg</p>
             <p class="description">${description}</p>

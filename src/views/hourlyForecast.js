@@ -12,7 +12,7 @@ export const createHourlyForecastElement = (dateTimeUnix, timezone, icon, temp) 
     element.setAttribute("data-hourly-forecast-item", "")
     element.innerHTML = String.raw `
         <p class="day">${module.getHours(dateTimeUnix, timezone)}</p>
-        <span class="symbol"><img src="/src/images/${icon}.png" width="32"></span>
+        <span class="symbol"><img src="src/images/${icon}.png" width="32"></span>
         <p class="temp">${parseInt(temp)}&deg</p>
     `;
 
